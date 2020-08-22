@@ -81,7 +81,10 @@ proxy: {
 - Run
 
 ```bash
-./cmd/subscan --conf configs
+1.subscan --conf configs //rpc service
+2.subscan start substrate //sync block data to mysql
+  sync config = util/env.go
+
 ```
 
 - Help 
